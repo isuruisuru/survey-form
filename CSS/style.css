@@ -1,0 +1,80 @@
+/* --red-crayola: #ed254eff;
+--naples-yellow: #f9dc5cff;
+--mint-cream: #f4fffdff;
+--oxford-blue: #011936ff;
+--black-coral: #465362ff; */
+
+body {
+  background-image: url("https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/2019/05/business-communication-feature-image-1-1200x675.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  backdrop-filter: blur(3px);
+
+  /* background: #011936ff; */
+}
+
+.header {
+  color: #011936ff;
+  line-height: 10px;
+}
+
+#title {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  word-spacing: -2px;
+}
+
+#survey-form {
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #ed254eff;
+  border-radius: 15px;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  color: #160c28;
+  /* box-shadow: 3px 3px red, -1em 0 0.4em #f9dc5c; */
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  width: 100%;
+  height: 25px;
+  border: 1px solid blue;
+}
+
+input[type="radio"] {
+  accent-color: #011936ff;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+#check {
+  display: block;
+}
+
+#comments {
+  width: 100%;
+  height: 80px;
+  border: 1px solid blue;
+}
+
+#submit {
+  width: 100%;
+  height: 25px;
+  background: #607196;
+  font-weight: bold;
+  font-size: medium;
+}
